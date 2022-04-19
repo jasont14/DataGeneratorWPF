@@ -17,7 +17,7 @@ namespace DataGeneratorWPF.Database
        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=192.168.86.112;
+            optionsBuilder.UseSqlServer(@"Data Source=;
                                      Initial Catalog=StoreDB;
                                      Persist Security Info=False;  
                                      User ID=app;
